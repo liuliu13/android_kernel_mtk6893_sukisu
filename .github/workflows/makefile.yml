@@ -44,7 +44,9 @@ jobs:
     - name: 下载内核源码
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
-        git clone -b sukisu-dev https://github.com/hotianbexuanto/android_kernel_mtk6893_sukisu android-kernel
+        git clone -b sukisu-dev https://github.com/liuliu13/android_kernel_mtk6893_sukisu android-kernel
+        cd android-kernel
+        git clone https://github.com/SukiSU-Ultra/SukiSU-Ultra.git KernelSU
         cd android-kernel
 
 
