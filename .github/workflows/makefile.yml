@@ -44,7 +44,7 @@ jobs:
     - name: 下载内核源码
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
-        git clone https://github.com/hotianbexuanto/android_kernel_mtk6893_sukisu android-kernel
+        git clone https://github.com/mt6893-development/android_kernel_oplus_mt6893 android-kernel
         cd android-kernel
 
 
