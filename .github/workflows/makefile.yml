@@ -47,7 +47,7 @@ jobs:
         git clone -b sukisu-dev https://github.com/liuliu13/android_kernel_mtk6893_sukisu android-kernel
         cd android-kernel
         git clone https://github.com/SukiSU-Ultra/SukiSU-Ultra.git KernelSU
-        cd android-kernel
+        cd KernelSU
 
 
     - name: 设置ccache缓存
